@@ -13,7 +13,7 @@ int * fibonacciSeries(int * arr, int size) {
 	return arr;
 }
 
-int main() {
+int main(void) {
 	int Num=15, arr[Num], * p;
 	p = fibonacciSeries(arr, Num);
 	for (int i=0; i<Num; i++) {

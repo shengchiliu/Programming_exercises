@@ -12,7 +12,7 @@ void fibonacciSeries(int Num, int arr[Num]) {
 	arr[0] = 0; arr[1] = 1;
 }
 
-int main() {
+int main(void) {
 	int Num=15, arr[Num];
 	fibonacciSeries(Num, arr);
 	for (int i=0; i<Num; i++) {
