@@ -5,6 +5,7 @@
 		<title>Test JavaScript Program</title>
 		<script src="print.js"></script>
 		<script src="script.js"></script>
+		<script src="array.js"></script>
 	</head>
 
 	<body>
@@ -18,9 +19,15 @@
 			<input type="button" onClick="multiplyBy()" Value="Multiply" />
 			<input type="button" onClick="divideBy()" Value="Divide" />
 		</form>
+
 		<p>The Result is : <br>
 			<span id = "result"></span>
 		</p>
+
+		<input type="text" id="text1"></input>
+		<input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+		<input type="button" id="button2" value="Display" onclick="display_array();"></input>
+		<div id="Result"></div>
 
 	</body>
 </html>
