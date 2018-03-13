@@ -9,7 +9,7 @@ int factorial(int n) {
     }
 }
 
-int main() {
+int main(void) {
     int n=10;
     printf("%d", factorial(n));
 }
