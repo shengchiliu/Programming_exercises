@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
-    for (int i=0; i<10; i++) {
-        printf("%d\n", i);
-    }
+int main() {
+    int number = 50;
+    int *p;
+    p = &number;
+    printf("Address of p variable is %x \n",p);
+    printf("Value of p variable is %d \n",*p);
+    return 0;
 }
