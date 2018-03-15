@@ -5,3 +5,4 @@ Exercises are from this website:
 
 Also there is a useful websites for learning JavaScript:
 * https://developer.mozilla.org/bm/docs/Web/JavaScript
+* https://mdbookspace.com/view/jsh/
