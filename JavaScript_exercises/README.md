@@ -1,8 +1,8 @@
 # JavaScript Programming Exercises
 
-Exercises are from this website:
+The exercises are from this website:
 * https://www.w3resource.com/javascript-exercises/
 
-Also there is a useful websites for learning JavaScript:
+Also there are useful websites for learning JavaScript:
 * https://developer.mozilla.org/bm/docs/Web/JavaScript
 * https://mdbookspace.com/view/jsh/
