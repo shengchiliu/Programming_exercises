@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    function derivative(f,  dx) {
+        return  function (x) {
+            return (f(x + dx) - f(x))/dx;
+        };
+    }
+
+    var f1 = function (x) { return x*x; }
+    var df1 = derivative(f1, 0.001);
+    var df17 = df1(7.0);
+    document.write("d f1(7)/dx = " + df17);
+</script>
+
+</body>
+</html>
