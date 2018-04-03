@@ -6,3 +6,4 @@ The exercises are from this website:
 Also there are useful websites for learning JavaScript:
 * https://developer.mozilla.org/bm/docs/Web/JavaScript
 * https://mdbookspace.com/view/jsh/
+* http://ccckmit.wikidot.com/js:basic
